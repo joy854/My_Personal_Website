@@ -697,8 +697,20 @@ h1.arrow span {
   color: #e04343;
 }
 .services .item:hover .icon {
-  background: #e04343;
+  /* background: #dfd92d; */
   border: 1px solid #e04343;
+}
+.item:hover .chef {
+  background: #e48d8d;
+}
+.item:hover .hr {
+  background: #1241fa;
+}
+.item:hover .cf {
+  background: #e04343;
+}
+.item:hover .rank {
+  background: rgb(30, 117, 65);
 }
 .services .item [class*='fa'] {
   -webkit-transition: all 0.3s ease-out;
